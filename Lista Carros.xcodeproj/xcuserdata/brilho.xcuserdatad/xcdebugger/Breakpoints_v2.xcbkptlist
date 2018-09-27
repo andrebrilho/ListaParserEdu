@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Lista Carros/Model/veiculos.swift"
+            timestampString = "559708251.914147"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "14"
+            endingLineNumber = "14"
+            landmarkName = "veiculos"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Lista_Carros.veiculos.veiculo_id.getter : Swift.ImplicitlyUnwrappedOptional&lt;Swift.String&gt;"
+                  moduleName = "Lista Carros"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/brilho/Downloads/carroslista-master/Lista%20Carros/Lista%20Carros/Model/veiculos.swift"
+                  timestampString = "559708252.019923"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "69">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Lista_Carros.veiculos.veiculo_id.setter : Swift.ImplicitlyUnwrappedOptional&lt;Swift.String&gt;"
+                  moduleName = "Lista Carros"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/brilho/Downloads/carroslista-master/Lista%20Carros/Lista%20Carros/Model/veiculos.swift"
+                  timestampString = "559708252.024191"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "186">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Lista_Carros.veiculos.init() -&gt; Lista_Carros.veiculos"
+                  moduleName = "Lista Carros"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/brilho/Downloads/carroslista-master/Lista%20Carros/Lista%20Carros/Model/veiculos.swift"
+                  timestampString = "559708252.034302"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "56">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

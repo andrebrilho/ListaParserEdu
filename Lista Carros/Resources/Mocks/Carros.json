@@ -1,0 +1,106 @@
+{
+    "marcas":[
+        {
+            "marca_id" : "1",
+            "nome" : "Alfa Romeo",
+            "abreviacao" : "AR",
+            "data_criacao" : "1910-06-24",
+            "pais" : "Itália",
+            "nome_dono" : "Nicola Romeo",
+            "cidade" : "Milão",
+            "emblema" : "http://www.carlogos.org/logo/Alfa-Romeo-logo-2015-1920x1080.png"
+        },
+        {
+            "marca_id" : "2",
+            "nome" : "Ferrari",
+            "abreviacao" : "FR",
+            "data_criacao" : "1939-09-13",
+            "pais" : "Itália",
+            "nome_dono" : "Enzo Ferrari",
+            "cidade" : "Maranello",
+            "emblema" : "http://www.carlogos.org/logo/Ferrari-logo-2560x1440.png"
+        },
+        {
+            "marca_id" : "3",
+            "nome" : "Lamborghini",
+            "abreviacao" : "LB",
+            "data_criacao" : "1963-10-30",
+            "pais" : "Itália",
+            "nome_dono" : "Ferruccio Lamborghini",
+            "cidade" : "Sant'Agata Bolognese",
+            "emblema" : "http://www.carlogos.org/logo/Lamborghini-logo-1920x1080.png"
+        },
+        {
+            "marca_id" : "4",
+            "nome" : "Nissan",
+            "abreviacao" : "NI",
+            "data_criacao" : "1932-01-01",
+            "pais" : "Japão",
+            "nome_dono" : "Kenjiro Den",
+            "cidade" : "Tóquio",
+            "emblema" : "http://www.carlogos.org/logo/Nissan-logo-2013-1440x900.png"
+        }
+    ],
+    "veiculos":[
+        {
+            "veiculo_id" : "1",
+            "nome" : "GT-R",
+            "marca_id" : "4",
+            "valor" : 900000.00
+        },
+        {
+            "veiculo_id" : "2",
+            "nome" : "488 Spider",
+            "marca_id" : "2",
+            "valor" : 3400000.00
+        },
+        {
+            "veiculo_id" : "3",
+            "nome" : "Skyline GT-R",
+            "marca_id" : "4",
+            "valor" : 172498.93
+        },
+        {
+            "veiculo_id" : "4",
+            "nome" : "Giulia",
+            "marca_id" : "1",
+            "valor" : 607900.00
+        },
+        {
+            "veiculo_id" : "5",
+            "nome" : "Modena",
+            "marca_id" : "2",
+            "valor" : 459000.00
+        },
+        {
+            "veiculo_id" : "6",
+            "nome" : "Aventador",
+            "marca_id" : "3",
+            "valor" : 3200000.00
+        },
+        {
+            "veiculo_id" : "7",
+            "nome" : "Gallardo",
+            "marca_id" : "3",
+            "valor" : 998500.00
+        },
+        {
+            "veiculo_id" : "8",
+            "nome" : "350Z",
+            "marca_id" : "4",
+            "valor" : 100000.00
+        },
+        {
+            "veiculo_id" : "9",
+            "nome" : "Brera",
+            "marca_id" : "1",
+            "valor" : 88673.84
+        },
+        {
+            "veiculo_id" : "10",
+            "nome" : "Huracán",
+            "marca_id" : "3",
+            "valor" : 3290000.00
+        }
+    ]
+}
