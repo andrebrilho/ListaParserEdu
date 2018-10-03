@@ -10,9 +10,9 @@ import Foundation
 
 import UIKit
 
-public class responseCarros : Codable {
+public class ResponseCarros : Codable {
     
-    var marcas:[marcas]!
-    var veiculos:[veiculos]!
+    var marcas:[Marca]?
+    var veiculos:[Veiculo]?
     
 }

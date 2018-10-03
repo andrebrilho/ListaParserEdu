@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="CarItemTableViewCell" rowHeight="50" id="Alp-7k-x1m" customClass="CarItemTableViewCell" customModule="Lista_Carros" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="49"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="Alp-7k-x1m" id="k4N-0K-klH">
+                <rect key="frame" x="0.0" y="0.0" width="375" height="48.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ujY-xI-dCB">
+                        <rect key="frame" x="16" y="14" width="257" height="21"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="257" id="Hxj-j1-huE"/>
+                            <constraint firstAttribute="height" constant="21" id="nhj-vQ-jcN"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="R$ - " textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Wu2-tR-eo3">
+                        <rect key="frame" x="250" y="16" width="109" height="18"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="Wu2-tR-eo3" firstAttribute="baseline" secondItem="ujY-xI-dCB" secondAttribute="baseline" id="INU-Jr-yiS"/>
+                    <constraint firstItem="ujY-xI-dCB" firstAttribute="centerY" secondItem="k4N-0K-klH" secondAttribute="centerY" id="Zg9-Ka-IqU"/>
+                    <constraint firstItem="Wu2-tR-eo3" firstAttribute="trailing" secondItem="k4N-0K-klH" secondAttribute="trailingMargin" id="lR5-fe-RW5"/>
+                    <constraint firstItem="ujY-xI-dCB" firstAttribute="leading" secondItem="k4N-0K-klH" secondAttribute="leadingMargin" id="sAs-Ug-IIa"/>
+                    <constraint firstItem="Wu2-tR-eo3" firstAttribute="leading" secondItem="ujY-xI-dCB" secondAttribute="trailing" constant="-23" id="v3u-Wg-iKD"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="lblNome" destination="ujY-xI-dCB" id="Ho1-hZ-CH3"/>
+                <outlet property="lblPreco" destination="Wu2-tR-eo3" id="jiJ-2V-vtK"/>
+            </connections>
+            <point key="canvasLocation" x="64.5" y="-7.5"/>
+        </tableViewCell>
+    </objects>
+</document>

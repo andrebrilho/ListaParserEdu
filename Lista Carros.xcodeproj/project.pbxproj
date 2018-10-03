@@ -14,9 +14,14 @@
 		A06E513F215B10A800504651 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A06E513D215B10A800504651 /* LaunchScreen.storyboard */; };
 		A06E514D215B193600504651 /* Carros.json in Resources */ = {isa = PBXBuildFile; fileRef = A06E514C215B193600504651 /* Carros.json */; };
 		EA7A01C7215C2E28002611E7 /* Api.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA7A01C6215C2E28002611E7 /* Api.swift */; };
-		EA7A01CA215C2F7B002611E7 /* marcas.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA7A01C9215C2F7B002611E7 /* marcas.swift */; };
-		EA7A01CC215C2F85002611E7 /* veiculos.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA7A01CB215C2F85002611E7 /* veiculos.swift */; };
-		EA7A01CE215C32A5002611E7 /* responseCarros.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA7A01CD215C32A5002611E7 /* responseCarros.swift */; };
+		EA7A01CA215C2F7B002611E7 /* Marca.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA7A01C9215C2F7B002611E7 /* Marca.swift */; };
+		EA7A01CC215C2F85002611E7 /* Veiculo.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA7A01CB215C2F85002611E7 /* Veiculo.swift */; };
+		EA7A01CE215C32A5002611E7 /* ResponseCarros.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA7A01CD215C32A5002611E7 /* ResponseCarros.swift */; };
+		EAE243DD2164529900A4EDAD /* HeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = EAE243DC2164529900A4EDAD /* HeaderView.xib */; };
+		EAE243DF216452B100A4EDAD /* CarItemTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = EAE243DE216452B100A4EDAD /* CarItemTableViewCell.xib */; };
+		EAE243E1216454B900A4EDAD /* HeaderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAE243E0216454B900A4EDAD /* HeaderViewController.swift */; };
+		EAE243E3216454F800A4EDAD /* CarItemTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAE243E2216454F800A4EDAD /* CarItemTableViewCell.swift */; };
+		EAE243E52164555400A4EDAD /* CarListaDataSourceAndDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAE243E42164555400A4EDAD /* CarListaDataSourceAndDelegate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,9 +34,14 @@
 		A06E5140215B10A800504651 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A06E514C215B193600504651 /* Carros.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Carros.json; sourceTree = "<group>"; };
 		EA7A01C6215C2E28002611E7 /* Api.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Api.swift; sourceTree = "<group>"; };
-		EA7A01C9215C2F7B002611E7 /* marcas.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = marcas.swift; sourceTree = "<group>"; };
-		EA7A01CB215C2F85002611E7 /* veiculos.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = veiculos.swift; sourceTree = "<group>"; };
-		EA7A01CD215C32A5002611E7 /* responseCarros.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = responseCarros.swift; sourceTree = "<group>"; };
+		EA7A01C9215C2F7B002611E7 /* Marca.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Marca.swift; sourceTree = "<group>"; };
+		EA7A01CB215C2F85002611E7 /* Veiculo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Veiculo.swift; sourceTree = "<group>"; };
+		EA7A01CD215C32A5002611E7 /* ResponseCarros.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResponseCarros.swift; sourceTree = "<group>"; };
+		EAE243DC2164529900A4EDAD /* HeaderView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HeaderView.xib; sourceTree = "<group>"; };
+		EAE243DE216452B100A4EDAD /* CarItemTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CarItemTableViewCell.xib; sourceTree = "<group>"; };
+		EAE243E0216454B900A4EDAD /* HeaderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderViewController.swift; sourceTree = "<group>"; };
+		EAE243E2216454F800A4EDAD /* CarItemTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarItemTableViewCell.swift; sourceTree = "<group>"; };
+		EAE243E42164555400A4EDAD /* CarListaDataSourceAndDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarListaDataSourceAndDelegate.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +107,8 @@
 			children = (
 				A06E513D215B10A800504651 /* LaunchScreen.storyboard */,
 				A06E5138215B10A800504651 /* Main.storyboard */,
+				EAE243DC2164529900A4EDAD /* HeaderView.xib */,
+				EAE243DE216452B100A4EDAD /* CarItemTableViewCell.xib */,
 			);
 			path = UI;
 			sourceTree = "<group>";
@@ -113,6 +125,9 @@
 			isa = PBXGroup;
 			children = (
 				A06E5136215B10A800504651 /* ViewController.swift */,
+				EAE243E0216454B900A4EDAD /* HeaderViewController.swift */,
+				EAE243E2216454F800A4EDAD /* CarItemTableViewCell.swift */,
+				EAE243E42164555400A4EDAD /* CarListaDataSourceAndDelegate.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -128,9 +143,9 @@
 		EA7A01C8215C2F6B002611E7 /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				EA7A01C9215C2F7B002611E7 /* marcas.swift */,
-				EA7A01CB215C2F85002611E7 /* veiculos.swift */,
-				EA7A01CD215C32A5002611E7 /* responseCarros.swift */,
+				EA7A01C9215C2F7B002611E7 /* Marca.swift */,
+				EA7A01CB215C2F85002611E7 /* Veiculo.swift */,
+				EA7A01CD215C32A5002611E7 /* ResponseCarros.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -195,6 +210,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				A06E513F215B10A800504651 /* LaunchScreen.storyboard in Resources */,
+				EAE243DD2164529900A4EDAD /* HeaderView.xib in Resources */,
+				EAE243DF216452B100A4EDAD /* CarItemTableViewCell.xib in Resources */,
 				A06E514D215B193600504651 /* Carros.json in Resources */,
 				A06E513C215B10A800504651 /* Assets.xcassets in Resources */,
 				A06E513A215B10A800504651 /* Main.storyboard in Resources */,
@@ -209,11 +226,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				EA7A01C7215C2E28002611E7 /* Api.swift in Sources */,
+				EAE243E52164555400A4EDAD /* CarListaDataSourceAndDelegate.swift in Sources */,
+				EAE243E1216454B900A4EDAD /* HeaderViewController.swift in Sources */,
 				A06E5137215B10A800504651 /* ViewController.swift in Sources */,
-				EA7A01CA215C2F7B002611E7 /* marcas.swift in Sources */,
+				EA7A01CA215C2F7B002611E7 /* Marca.swift in Sources */,
 				A06E5135215B10A800504651 /* AppDelegate.swift in Sources */,
-				EA7A01CE215C32A5002611E7 /* responseCarros.swift in Sources */,
-				EA7A01CC215C2F85002611E7 /* veiculos.swift in Sources */,
+				EAE243E3216454F800A4EDAD /* CarItemTableViewCell.swift in Sources */,
+				EA7A01CE215C32A5002611E7 /* ResponseCarros.swift in Sources */,
+				EA7A01CC215C2F85002611E7 /* Veiculo.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

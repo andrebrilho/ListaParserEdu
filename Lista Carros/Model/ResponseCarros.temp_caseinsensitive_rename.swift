@@ -1,5 +1,5 @@
 //
-//  carros.swift
+//  responseCarros.swift
 //  Lista Carros
 //
 //  Created by André Brilho on 26/09/2018.
@@ -7,13 +7,12 @@
 //
 
 import Foundation
+
 import UIKit
 
-public class veiculos : Codable {
+public class ResponseCarros : Codable {
     
-    var veiculo_id: String!
-    var nome: String!
-    var marca_id: String!
-    var valor: Double!
+    var marcas:[marcas]?
+    var veiculos:[veiculos]?
     
 }
